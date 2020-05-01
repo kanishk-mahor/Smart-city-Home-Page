@@ -1,0 +1,410 @@
+html{
+    scroll-behavior: smooth;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  background: rgb(102, 123, 167);
+  font-size: 12px;
+  color:white;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+}
+
+.bg{
+    background-image: url(img/backgroung\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Style for "v" */
+.logo {
+    position: relative;
+    /* margin-right:10px; */
+    top: 10px;
+    width: 34px;
+    height: 22px;
+  }
+  
+.header-right {
+    position: relative;
+    top: 10px;
+    float: right;
+    /* color: #e4e0e0; */
+    font-family: "Tw Cen MT";
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+.header-right a {
+    float: left;
+    color: #e4e0e0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+.header-right a:hover {
+    background-color: rgb(72, 177, 142);
+    color: black;
+  }
+
+.header-right a.active {
+    background-color: rgb(72, 177, 142);
+    color: black;
+  }
+
+
+  /* Style for "Rectangle" */
+.rectangle-1 {
+    margin-top: 50px;
+    top: 100px;
+    width: 100%;
+    height: 445px;
+    background-color: rgba(70, 223, 172,0.35);
+  }
+
+.slider{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.slide1{
+    display: flex;
+    width:100%;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    opacity: 0.5;
+}
+
+  /* Style for "VILLE INTE" */
+  .ville-inteliente {
+    position: relative;
+    /* top: 30px; */
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align-last: center;
+  }
+  
+    /* Style for "A Smart Ci" */
+.a-smart-city {
+    position: relative;
+    top: 80px;
+    color: #020202;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: 600;
+    text-align-last: center;
+  }
+  /* Text style for "A,  Smart" */
+  .a-smart-city {
+    color: #282828;
+  }
+  
+  /* Style for "Rounded Re" */
+    .rounded-rectangle-1 {
+    position: relative;
+    top: 200px; 
+    opacity: 5;
+    text-align: center;
+  }
+
+  /* Style for "Explore Mo" */
+.explore-more {
+    position: absolute;
+    font-family: "Tw Cen MT";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    top: 20%;
+    bottom: 26px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  /* Text style for "E, xplore" */
+.explore-more a {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: text-shadow .5s;
+  }
+
+.explore-more a:hover {
+    color: black;
+    text-shadow: 0 0 .85px rgb(5, 3, 3), 0 0 .85px rgb(5, 3, 3);
+  }
+
+  /* Style for "SERVICES" */
+.services {
+    position: relative;
+    top: 74px;
+    color: #c9c0c0;
+    font-family: Verdana;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  /* Style for "Rectangle" */
+.rectangle-2 {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    top: 770px;
+    transform: skewY(10deg);
+    background-color: rgba(65, 66, 69,0.83);
+    background-image: linear-gradient(-63deg, rgba(7, 6, 6, 0.46) 0%, rgba(7, 6, 6, 0.46) 15%, rgba(255, 255, 255, 0.46) 100%);
+    /* opacity: 0.83; */
+  }
+
+  /* Style for "Rectangle" */
+.rectangle-3 {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 400px;
+    top: 770px;
+    transform: skewY(-10deg);
+    background-color :rgba(65, 66, 69,0.83);
+    background-image: linear-gradient(-119deg, rgba(255, 255, 255, 0.46) 0%, rgba(7, 6, 6, 0.46) 85%, rgba(7, 6, 6, 0.46) 100%);
+  }
+
+  /* Style for "home_s" */
+.home-s {
+    position: relative;
+    transform:skewY(-10deg);
+    margin-top: 30px;
+    max-width: 20%;
+    left: 20px;
+    padding: 20px 20px;
+    height: auto;
+  }
+
+  /* style for home-s hover */
+.home-s:hover{
+    top: 5px;
+  }
+
+  /* Style for "road_s" */
+.road-s {
+    position: absolute;
+    transform:skewY(-10deg);
+    top: 30px;
+    left: 40%;
+    width: 20%;
+    padding: 20px 30px ;
+    height: auto;
+  }
+
+  /* Style for "road_s hover" */
+.road-s:hover{
+    top: 34px;
+}
+
+  /* Style for "rain_s" */
+.rain-s {
+    position: absolute;
+    transform:skewY(10deg);
+    top: 22px;
+    left:-14%;
+    width: 20%;
+    padding-top: 20px;
+    height: auto;
+  }
+
+  /* Style for "rain-s hover" */
+.rain-s:hover{
+    top: 27px;
+}
+
+  /* Style for "electricity-s" */
+.electricity-s {
+    position: absolute;
+    transform:skewY(10deg);
+    top: 22px;
+    left:25%;
+    width: 20%;
+    padding: 20px 20px;
+    height: auto;
+  }
+
+  /* Style for "electricity-s hover" */
+.electricity-s:hover{
+    top: 27px;
+}
+
+  /* Style for ".parking-s" */
+.parking-s {
+    position: relative;
+    transform:skewY(10deg);
+    margin-top: 10px;
+    left: 62%;
+    right: 20px;
+    width: 20%;
+    padding: 20px 20px;
+    height: auto;
+  }
+
+  /* Style for ".electricity-s:hover" */
+.parking-s:hover{
+    top: 5px;
+}
+
+ /* Style for "sneek peak" */
+ .sneek-peak {
+     position: relative;
+    margin-top: 50px;
+    top: 600px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(206, 204, 204, 0.62);
+  }
+
+  /* Style for "slide next button" */
+#nextbtn{
+  position: absolute;
+  right: 0px;
+  border-radius: 10px 0px 0px 10px;
+  float: right;
+  opacity: 0.52;
+}
+
+  /* Style for "slide previous button" */
+#prevbtn{
+  border-radius: 0px 10px 10px 0px;
+  opacity: 0.52;
+}
+
+  /* Style for "last secti" */
+.last-section {
+    position: relative;
+    top: 700px;
+    width: 100px;
+    height: 122px;
+  }
+
+.ville{
+  position: relative;
+  text-align: left;
+  width:150px;
+  top: 20px;
+  left: 50px;
+  color: #e4e0e0;
+  padding: 10px;
+  bottom: 10px;
+  float: right;
+}
+
+.ville h5{
+  color: rgb(204, 104, 38);
+
+}
+
+  /* Style for "fa-fa icons" */
+#fafa{
+  display: inline-flex;
+  
+  position: absolute;
+  bottom: 10px;
+  right:-300px;
+  float:inline-start;
+}
+
+
+
+
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  bottom: 10px;
+}
+
+
+.hardware{
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.slide1{
+    position: relative;
+    display: flex;
+    width:100%;
+    height: min-content;
+}
+
+#box{
+  width: 100%;
+  /* display: flex; */
+  overflow: hidden;
+  margin: 0;
+  /* opacity: 0.12; */
+}
+
+#box img{
+  display: block;
+  height: 400px;
+  width: 100%;
+  opacity: 0.32;
+}
+/* .sl1{
+  position: relative;
+
+  width: max-content;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  object-fit: contain;
+} */
+
+figure{
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+}
+
+figure img{
+  display: block;
+  height: 400px;
+  width: 100%;
+  opacity: 1;
+}
+
+.change-ratio img{
+  margin:0 0;
+}
+
+
+  /* Style for "footer" */
+.footer {
+    position: relative;
+    top: 700px;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+  }
+
+  /* Style for "copyright" */
+.copyright-by-adkuns {
+    position: relative;
+    text-align: center;
+    color: #999898;
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+  }
